@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TestApp</string>
+
+    <!-- Actions -->
+    <string name="action_attach_photo">Attach photo</string>
+    <string name="action_facebook">Login with Facebook</string>
+    <string name="action_go_to_settings">Go to settings</string>
+    <string name="action_skip">Skip</string>
+
+    <!-- Titles -->
+    <string name="title_list">List</string>
+    <string name="title_location_disabled">Location disabled</string>
+    <string name="title_login">Login</string>
+    <string name="title_main">Main</string>
+    <string name="title_maps">Map</string>
+
+    <!-- Messages -->
+    <string name="msg_connection_failure">Connection failure</string>
+    <string name="msg_connection_terminated">Connection terminated</string>
+    <string name="msg_location_not_available">Location is not available. Please try again later</string>
+    <string name="msg_location_settings_not_enabled">Please enable location services with HIGH ACCURACY mode.</string>
+    <string name="msg_successfully_logged_in">Successfully logged in</string>
+
+</resources>

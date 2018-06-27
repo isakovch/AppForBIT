@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btn_facebook"
+    style="@style/SocialButtonTheme"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_stroked_rippled"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/social_icon_size"
+        android:layout_height="@dimen/social_icon_size"
+        android:src="@drawable/ic_facebook" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/ic_facebook"
+        android:text="@string/action_facebook"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>

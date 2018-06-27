@@ -1,0 +1,55 @@
+ext {
+    versions = [
+            java                : JavaVersion.VERSION_1_8,
+            compileSdk          : 27,
+            targetSdk           : 27,
+            minSdk              : 16,
+
+            support             : '27.1.1',
+            constraintLayout    : '1.1.2',
+
+            // libs
+            dagger              : '2.14.1',
+            playServices        : '15.0.1',
+            okhttp              : '3.10.0',
+            retrofit            : '2.4.0',
+            butterKnife         : '8.8.1',
+            facebook            : '4.34.0',
+
+            // test
+            espresso            : '3.0.2',
+            runner              : '1.0.2',
+            junit               : '4.12',
+    ]
+
+    libs = [
+            appCompat               : "com.android.support:appcompat-v7:${versions.support}",
+            design                  : "com.android.support:design:${versions.support}",
+            cardView                : "com.android.support:cardview-v7:${versions.support}",
+            support                 : "com.android.support:support-v4:${versions.support}",
+            constraint              : "com.android.support.constraint:constraint-layout:${versions.constraintLayout}",
+
+            playServicesMaps        : "com.google.android.gms:play-services-maps:${versions.playServices}",
+            playServicesLocation    : "com.google.android.gms:play-services-location:${versions.playServices}",
+
+            retrofit                : "com.squareup.retrofit2:retrofit:${versions.retrofit}",
+            retrofitConverter       : "com.squareup.retrofit2:converter-gson:${versions.retrofit}",
+            retrofitAdapter         : "com.squareup.retrofit2:adapter-rxjava2:${versions.retrofit}",
+
+            okhttp                  : "com.squareup.okhttp3:logging-interceptor:${versions.okhttp}",
+
+            butterKnife             : "com.jakewharton:butterknife:${versions.butterKnife}",
+            butterKnifeCompiler     : "com.jakewharton:butterknife-compiler:${versions.butterKnife}",
+
+            dagger                  : "com.google.dagger:dagger:${versions.dagger}",
+            daggerProcessor         : "com.google.dagger:dagger-compiler:${versions.dagger}",
+
+            facebookLogin           : "com.facebook.android:facebook-login:${versions.facebook}",
+
+            // test
+            junit                   : "junit:junit:$versions.junit",
+            espressoCore            : "com.android.support.test.espresso:espresso-core:${versions.espresso}",
+            runner                  : "com.android.support.test:runner:${versions.runner}"
+    ]
+
+}
